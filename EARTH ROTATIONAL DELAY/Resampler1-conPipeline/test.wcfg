@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Grado/TFG/Resampler1-conPipeline/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="coeffconstants" />
+            <top_module name="inputs_test" />
+            <top_module name="numeric_std" />
+            <top_module name="outputs_test" />
+            <top_module name="resamplertypes" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/testbench/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/earth_phase" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">earth_phase[9:0]</obj_property>
+      <obj_property name="ObjectShortName">earth_phase[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/erd_up" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">erd_up</obj_property>
+      <obj_property name="ObjectShortName">erd_up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/erd_down" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">erd_down</obj_property>
+      <obj_property name="ObjectShortName">erd_down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/fifo_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_read</obj_property>
+      <obj_property name="ObjectShortName">fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/j" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">u</obj_property>
+      <obj_property name="ObjectShortName">u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/x" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/correct" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">correct</obj_property>
+      <obj_property name="ObjectShortName">correct</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/compare" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">compare[0:2000]</obj_property>
+      <obj_property name="ObjectShortName">compare[0:2000]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Resamplr/data_selected" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_selected[0:55]</obj_property>
+      <obj_property name="ObjectShortName">data_selected[0:55]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Resamplr/coeff_selected_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">coeff_selected_d[0:55]</obj_property>
+      <obj_property name="ObjectShortName">coeff_selected_d[0:55]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Resampler/tb_Earth_Rotation_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="resamplertypes" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_earth_rotation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_earth_rotation/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t_clk</obj_property>
+      <obj_property name="ObjectShortName">t_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_in[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_earth" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_earth[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_earth[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/phase_in_unsigned" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">phase_in_unsigned[10:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_in_unsigned[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/phase_earth_signed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">phase_earth_signed[10:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_earth_signed[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/phase_out_signed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">phase_out_signed[10:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_out_signed[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_selector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_selector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">t_selector[1:0]</obj_property>
+   </wvobject>
+</wave_config>

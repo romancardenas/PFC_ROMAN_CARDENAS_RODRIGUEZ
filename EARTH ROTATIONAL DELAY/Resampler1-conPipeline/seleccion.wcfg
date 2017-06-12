@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Resampler/tb_Earth_Rotation_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="resamplertypes" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_earth_rotation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_earth_rotation/t_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t_clk</obj_property>
+      <obj_property name="ObjectShortName">t_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_in[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_earth" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_earth[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_earth[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">t_phase_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/selector_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">selector_aux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selector_aux[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_phase_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t_phase_read</obj_property>
+      <obj_property name="ObjectShortName">t_phase_read</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/erd_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">erd_read</obj_property>
+      <obj_property name="ObjectShortName">erd_read</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/earth/erd_back" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">erd_back</obj_property>
+      <obj_property name="ObjectShortName">erd_back</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_fifo_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">t_fifo_read</obj_property>
+      <obj_property name="ObjectShortName">t_fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_earth_rotation/t_selector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_selector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">t_selector[1:0]</obj_property>
+   </wvobject>
+</wave_config>
